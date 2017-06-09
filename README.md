@@ -7,3 +7,6 @@ It's a simple RegEx that extracts file ID and returns new URL with it. It may no
 
 ## Privacy:
 Since this extension doesn't actually connect to your Google Drive, it doesn't request any of your login data or access to your files. It simply translates the URL on the spot.
+
+## Credits:
+Icons from: https://github.com/iconic/open-iconic
