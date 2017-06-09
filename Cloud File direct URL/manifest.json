@@ -1,0 +1,25 @@
+{
+  "name": "Cloud File direct URL",
+  "version": "1.0",
+  "author":"Viesturs Teivāns",
+  "description": "Creates direct URL to your Google drive file from current tab.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "data-transfer-download-32.png",
+    "default_title" : "Get direct URL!",
+    "default_popup": "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent",
+    "activeTab"
+  ],
+  "icons" : {
+    "48" : "data-transfer-download-48.png",
+    "128" : "data-transfer-download-64.png"
+  },
+  "manifest_version": 2
+}

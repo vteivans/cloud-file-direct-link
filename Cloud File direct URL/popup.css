@@ -1,0 +1,50 @@
+.view {
+    display: none;
+}
+.view p {
+    font-size: 1rem;
+    margin: 0.625rem 0.625rem;
+    white-space: nowrap;
+}
+
+.view.error {
+    display: block;
+    color: red;
+}
+
+.view.result {
+    display: flex;
+    width: 31.25rem;
+    flex-direction: row;
+    flex: 1 1 6.25;
+}
+
+.view.result input {
+    -webkit-appearance: none;
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 1px solid #DADADA;
+    border-right: none;
+}
+
+.view.result button {
+    -webkit-appearance: none;
+    flex: 0 0 5.3rem;
+    padding: 0.5rem;
+
+    border: 1px solid #DADADA;
+    background: #DADADA;
+    color: #373737;
+}
+
+.view.result button:hover {
+    background-color: #E5E5E5;
+}
+.view.result button:active {
+    background-color: #DADADA;
+}
+
+.view.intro {
+    display: block;
+}
