@@ -18,6 +18,7 @@
     "activeTab"
   ],
   "icons" : {
+    "32" : "cloud-link-32.png",
     "48" : "cloud-link-48.png",
     "128" : "cloud-link-128.png"
   },
