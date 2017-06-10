@@ -9,7 +9,7 @@
   },
   "page_action" :
   {
-    "default_icon" : "data-transfer-download-32.png",
+    "default_icon" : "cloud-link-32.png",
     "default_title" : "Get direct URL!",
     "default_popup": "popup.html"
   },
@@ -18,8 +18,8 @@
     "activeTab"
   ],
   "icons" : {
-    "48" : "data-transfer-download-48.png",
-    "128" : "data-transfer-download-64.png"
+    "48" : "cloud-link-48.png",
+    "128" : "cloud-link-128.png"
   },
   "manifest_version": 2
 }
