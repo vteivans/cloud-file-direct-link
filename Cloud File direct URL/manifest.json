@@ -1,6 +1,6 @@
 {
   "name": "Cloud File direct URL",
-  "version": "1.0",
+  "version": "1.1",
   "author":"Viesturs Teivāns",
   "description": "Creates direct URL to your Google drive file from current tab.",
   "background": {
